@@ -185,23 +185,3 @@ function resetGame() {
 
 // Initialize the game
 initializeGame();
-
-
----
-
-Minimal HTML to Run This JavaScript
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baby 2.0</title>
-</head>
-<body>
-    <h1>First to the Other Side Wins</h1>
-    <canvas id="gameCanvas"></canvas>
-    <div id="message"></div>
-    <script src="game.js"></script>
-</body>
-</html>
